@@ -1,0 +1,17 @@
+{
+  "name": "khinsiderscrapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Arnau Martin",
+    "url": "https://arnaumart.in"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "puppeteer": "^10.1.0",
+    "puppeteer-extra": "^3.1.18",
+    "puppeteer-extra-plugin-stealth": "^2.7.8"
+  }
+}
