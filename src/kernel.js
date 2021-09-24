@@ -45,7 +45,13 @@ const downloadSong = async (tab, list, idx) => {
     }});
     console.log(`Writing to disk...`);
     try {
+        await fs.mkdirSync(`./results`);
+    } catch {}
+    try {
         await fs.mkdirSync(`./results/${process.argv[2]}`);
+    } catch {}
+    try {
+        await fs.mkdirSync(`/tmp`);
     } catch {}
     try {
         await fs.mkdirSync(`/tmp/${process.argv[2]}`);
